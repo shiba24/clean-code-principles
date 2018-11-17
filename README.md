@@ -58,7 +58,6 @@ Method names as Verb phrase
  - Shorter names are generally better than longer ones, so long as they are clear.
  
  
-
 # Chapter3 Functions
 
 #### Small!
@@ -151,7 +150,7 @@ if checkSomething():
 ```
 
 #### Good Comments
-- Lefgal comments
+- Legal comments
 
 Copyright and authorship statements are necessary and reasonable things to put into a comment at the start of each source file.
 
