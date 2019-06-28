@@ -1,3 +1,36 @@
+- [Chapter 2: Meaningful Names](#chapter-2--meaningful-names)
+      - [Use Intension-Revealing Names](#use-intension-revealing-names)
+      - [Avoid Disinformation](#avoid-disinformation)
+      - [Make Meaningful Distinctions](#make-meaningful-distinctions)
+      - [Use Pronounceable names](#use-pronounceable-names)
+      - [Use Searchable Names](#use-searchable-names)
+      - [Avoid Encodings](#avoid-encodings)
+      - [Don't be cute](#don-t-be-cute)
+      - [Pick One Word per Concept](#pick-one-word-per-concept)
+      - [Don't pun](#don-t-pun)
+      - [Use Solution Domain Names](#use-solution-domain-names)
+      - [Use Problem Domain Names](#use-problem-domain-names)
+      - [Add Meaningful Context](#add-meaningful-context)
+      - [Don't Add Gratuitous Context](#don-t-add-gratuitous-context)
+- [Chapter3 Functions](#chapter3-functions)
+      - [Small!](#small-)
+      - [Do one thing](#do-one-thing)
+      - [One level of abstraction per function](#one-level-of-abstraction-per-function)
+      - [Switch statements (exception of do-on-thing rule)](#switch-statements--exception-of-do-on-thing-rule-)
+      - [Use descriptive name](#use-descriptive-name)
+      - [Function arguments](#function-arguments)
+      - [Have no side effects](#have-no-side-effects)
+      - [Command Query Separation](#command-query-separation)
+      - [Prefer Exceptions to returing error codes](#prefer-exceptions-to-returing-error-codes)
+      - [Don’t repeat yourself](#don-t-repeat-yourself)
+      - [Structured programming](#structured-programming)
+- [Chapter4: Comments](#chapter4--comments)
+      - [Comments Do No Make Up for Bad Code](#comments-do-no-make-up-for-bad-code)
+      - [Explain Yourself in Code](#explain-yourself-in-code)
+      - [Good Comments](#good-comments)
+      - [Bad Comments](#bad-comments)
+
+
 # Chapter 2: Meaningful Names
 
 #### Use Intension-Revealing Names
@@ -21,20 +54,27 @@
 #### Avoid Encodings
 
 - Hungarian Notation
+
 Avoid Hungarian Notation
 
 - Member prefixes
+
 Avoid Member Prefixes (`m_`)
 
 - Interfaces and Implementations
+
 Avoid `Interface` or `Implementation`
  
 - Avoid Mental Mapping
+
 Clarity is king.
+
 - Class Names
-Class names as Noun phrase.
-Avoid words like `manager, data, processor, info` in the name of class.
+
+Class names as Noun phrase. Avoid words like `manager, data, processor, info` in the name of class.
+
 - Method Names 
+
 Method names as Verb phrase
  
 #### Don't be cute
@@ -67,6 +107,7 @@ Method names as Verb phrase
 - Sections within Functions: don’t divide
 
 #### One level of abstraction per function
+
 Make sure that the statements within our function are all at the same level of abstraction.
 
 - reading code from top to bottom: the stepdown rule (top-down narrative)
@@ -82,6 +123,7 @@ We can’t always avoid switch statements, but we can make sure that each switch
 A long descriptive name is better than a short enigmatic name.
 
 #### Function arguments
+
 The ideal number of arguments for a function is zero (niladic). Next comes one (monoadic), followed closely by two (dyadic). 
 Three or more arguments (triadic)  should be avoided where possible.
 
@@ -115,9 +157,11 @@ Side effects are lies. Your function promises to d one thing, but it also does o
 A double-take on an argument that was actually an output rather than an input? No!
 
 #### Command Query Separation
+
 Functions should either do something or answer something, but not both at once. Either your function should change the state of an object, or it should return some information about that object.
 
 #### Prefer Exceptions to returing error codes
+
 - Extract try/catch blocks
 - Error handling is one thing
 - Error dependency magnet
