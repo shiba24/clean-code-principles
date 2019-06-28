@@ -1,6 +1,7 @@
+
 - [Chapter 2: Meaningful Names](#chapter-2--meaningful-names)
-      - [Use Intension-Revealing Names](#use-intension-revealing-names)
-      - [Avoid Disinformation](#avoid-disinformation)
+    - [Use Intension-Revealing Names](#use-intension-revealing-names)
+    - [Avoid Disinformation](#avoid-disinformation)
       - [Make Meaningful Distinctions](#make-meaningful-distinctions)
       - [Use Pronounceable names](#use-pronounceable-names)
       - [Use Searchable Names](#use-searchable-names)
