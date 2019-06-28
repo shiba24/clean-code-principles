@@ -2,37 +2,37 @@
 - [Chapter 2: Meaningful Names](#chapter-2--meaningful-names)
     - [Use Intension-Revealing Names](#use-intension-revealing-names)
     - [Avoid Disinformation](#avoid-disinformation)
-      - [Make Meaningful Distinctions](#make-meaningful-distinctions)
-      - [Use Pronounceable names](#use-pronounceable-names)
-      - [Use Searchable Names](#use-searchable-names)
-      - [Avoid Encodings](#avoid-encodings)
-      - [Don't be cute](#don-t-be-cute)
-      - [Pick One Word per Concept](#pick-one-word-per-concept)
-      - [Don't pun](#don-t-pun)
-      - [Use Solution Domain Names](#use-solution-domain-names)
-      - [Use Problem Domain Names](#use-problem-domain-names)
-      - [Add Meaningful Context](#add-meaningful-context)
-      - [Don't Add Gratuitous Context](#don-t-add-gratuitous-context)
+    - [Make Meaningful Distinctions](#make-meaningful-distinctions)
+    - [Use Pronounceable names](#use-pronounceable-names)
+    - [Use Searchable Names](#use-searchable-names)
+    - [Avoid Encodings](#avoid-encodings)
+    - [Don't be cute](#don-t-be-cute)
+    - [Pick One Word per Concept](#pick-one-word-per-concept)
+    - [Don't pun](#don-t-pun)
+    - [Use Solution Domain Names](#use-solution-domain-names)
+    - [Use Problem Domain Names](#use-problem-domain-names)
+    - [Add Meaningful Context](#add-meaningful-context)
+    - [Don't Add Gratuitous Context](#don-t-add-gratuitous-context)
 - [Chapter3 Functions](#chapter3-functions)
-      - [Small!](#small-)
-      - [Do one thing](#do-one-thing)
-      - [One level of abstraction per function](#one-level-of-abstraction-per-function)
-      - [Switch statements (exception of do-on-thing rule)](#switch-statements--exception-of-do-on-thing-rule-)
-      - [Use descriptive name](#use-descriptive-name)
-      - [Function arguments](#function-arguments)
-      - [Have no side effects](#have-no-side-effects)
-      - [Command Query Separation](#command-query-separation)
-      - [Prefer Exceptions to returing error codes](#prefer-exceptions-to-returing-error-codes)
-      - [Don’t repeat yourself](#don-t-repeat-yourself)
-      - [Structured programming](#structured-programming)
+   - [Small!](#small-)
+   - [Do one thing](#do-one-thing)
+   - [One level of abstraction per function](#one-level-of-abstraction-per-function)
+   - [Switch statements (exception of do-on-thing rule)(#switch-statements--exception-of-do-on-thing-rule-)
+   - [Use descriptive name](#use-descriptive-name)
+   - [Function arguments](#function-arguments)
+   - [Have no side effects](#have-no-side-effects)
+   - [Command Query Separation](#command-query-separation)
+   - [Prefer Exceptions to returing error codes](#prefer-exceptions-to-returing-error-codes)
+   - [Don’t repeat yourself](#don-t-repeat-yourself)
+   - [Structured programming](#structured-programming)
 - [Chapter4: Comments](#chapter4--comments)
-      - [Comments Do No Make Up for Bad Code](#comments-do-no-make-up-for-bad-code)
-      - [Explain Yourself in Code](#explain-yourself-in-code)
-      - [Good Comments](#good-comments)
-      - [Bad Comments](#bad-comments)
+   - [Comments Do No Make Up for Bad Code](#comments-do-no-make-up-for-bad-code)
+   - [Explain Yourself in Code](#explain-yourself-in-code)
+   - [Good Comments](#good-comments)
+   - [Bad Comments](#bad-comments)
 
 
-# Chapter 2: Meaningful Names
+## Chapter 2: Meaningful Names
 
 #### Use Intension-Revealing Names
 
@@ -99,7 +99,7 @@ Method names as Verb phrase
  - Shorter names are generally better than longer ones, so long as they are clear.
  
  
-# Chapter3 Functions
+## Chapter3 Functions
 
 #### Small!
 - Blocks and Indenting: one-line long
@@ -173,7 +173,7 @@ Duplication may be the root of all evil in software.
 #### Structured programming
 
 
-# Chapter4: Comments
+## Chapter4: Comments
 
 Comments are at best a necessary evil. The proper use of comments is to compensate for our failure to express ourself in code.
 
